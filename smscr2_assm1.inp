@@ -27,8 +27,10 @@ c        Assembly and Channel Cells
    50     0             -5    6  -15   16  -17   18
                                                   fill=1  $ Assembly Int
 c        Lattice and Waterbox Cells
-  100     0           -100  101 -102  103      lat=1 u=1  $ Pin Lattice
-                    fill=-4:4 -4:4 0:0
+  100     0           -100  101 -102  103 -104  105 
+                                               lat=1 u=1  $ Pin Lattice
+                      fill=-4:4 -4:4 -10:10
+         $ z=-2
          $ A B C D E F G H I
            2 2 2 2 2 2 2 2 2 $ Row 1
            2 2 2 2 2 2 2 2 2 $ Row 2
@@ -39,11 +41,242 @@ c        Lattice and Waterbox Cells
            2 2 2 2 2 2 2 2 2 $ Row 7
            2 2 2 2 2 2 2 2 2 $ Row 8
            2 2 2 2 2 2 2 2 2 $ Row 9
+         $ z=-1
+         $ A B C D E F G H I
+           3 3 3 3 3 3 3 3 3 $ Row 1
+           3 3 3 3 3 3 3 3 3 $ Row 2
+           3 3 3 3 3 3 3 3 3 $ Row 3
+           3 3 3 3 3 3 3 3 3 $ Row 4
+           3 3 3 3 3 3 3 3 3 $ Row 5
+           3 3 3 3 3 3 3 3 3 $ Row 6
+           3 3 3 3 3 3 3 3 3 $ Row 7
+           3 3 3 3 3 3 3 3 3 $ Row 8
+           3 3 3 3 3 3 3 3 3 $ Row 9
+         $ z=0
+         $ A B C D E F G H I
+           4 4 4 4 4 4 4 4 4 $ Row 1
+           4 4 4 4 4 4 4 4 4 $ Row 2
+           4 4 4 4 4 4 4 4 4 $ Row 3
+           4 4 4 4 4 4 4 4 4 $ Row 4
+           4 4 4 4 4 4 4 4 4 $ Row 5
+           4 4 4 4 4 4 4 4 4 $ Row 6
+           4 4 4 4 4 4 4 4 4 $ Row 7
+           4 4 4 4 4 4 4 4 4 $ Row 8
+           4 4 4 4 4 4 4 4 4 $ Row 9
+         $ z=1
+         $ A B C D E F G H I
+           5 5 5 5 5 5 5 5 5 $ Row 1
+           5 5 5 5 5 5 5 5 5 $ Row 2
+           5 5 5 5 5 5 5 5 5 $ Row 3
+           5 5 5 5 5 5 5 5 5 $ Row 4
+           5 5 5 5 5 5 5 5 5 $ Row 5
+           5 5 5 5 5 5 5 5 5 $ Row 6
+           5 5 5 5 5 5 5 5 5 $ Row 7
+           5 5 5 5 5 5 5 5 5 $ Row 8
+           5 5 5 5 5 5 5 5 5 $ Row 9
+         $ z=2
+           6 6 6 6 6 6 6 6 6 $ Row 1
+           6 6 6 6 6 6 6 6 6 $ Row 2
+           6 6 6 6 6 6 6 6 6 $ Row 3
+           6 6 6 6 6 6 6 6 6 $ Row 4
+           6 6 6 6 6 6 6 6 6 $ Row 5
+           6 6 6 6 6 6 6 6 6 $ Row 6
+           6 6 6 6 6 6 6 6 6 $ Row 7
+           6 6 6 6 6 6 6 6 6 $ Row 8
+           6 6 6 6 6 6 6 6 6 $ Row 9
+         $ z=-2
+         $ A B C D E F G H I
+           2 2 2 2 2 2 2 2 2 $ Row 1
+           2 2 2 2 2 2 2 2 2 $ Row 2
+           2 2 2 2 2 2 2 2 2 $ Row 3
+           2 2 2 2 2 2 2 2 2 $ Row 4
+           2 2 2 2 2 2 2 2 2 $ Row 5
+           2 2 2 2 2 2 2 2 2 $ Row 6
+           2 2 2 2 2 2 2 2 2 $ Row 7
+           2 2 2 2 2 2 2 2 2 $ Row 8
+           2 2 2 2 2 2 2 2 2 $ Row 9
+         $ z=-1
+         $ A B C D E F G H I
+           3 3 3 3 3 3 3 3 3 $ Row 1
+           3 3 3 3 3 3 3 3 3 $ Row 2
+           3 3 3 3 3 3 3 3 3 $ Row 3
+           3 3 3 3 3 3 3 3 3 $ Row 4
+           3 3 3 3 3 3 3 3 3 $ Row 5
+           3 3 3 3 3 3 3 3 3 $ Row 6
+           3 3 3 3 3 3 3 3 3 $ Row 7
+           3 3 3 3 3 3 3 3 3 $ Row 8
+           3 3 3 3 3 3 3 3 3 $ Row 9
+         $ z=0
+         $ A B C D E F G H I
+           4 4 4 4 4 4 4 4 4 $ Row 1
+           4 4 4 4 4 4 4 4 4 $ Row 2
+           4 4 4 4 4 4 4 4 4 $ Row 3
+           4 4 4 4 4 4 4 4 4 $ Row 4
+           4 4 4 4 4 4 4 4 4 $ Row 5
+           4 4 4 4 4 4 4 4 4 $ Row 6
+           4 4 4 4 4 4 4 4 4 $ Row 7
+           4 4 4 4 4 4 4 4 4 $ Row 8
+           4 4 4 4 4 4 4 4 4 $ Row 9
+         $ z=1
+         $ A B C D E F G H I
+           5 5 5 5 5 5 5 5 5 $ Row 1
+           5 5 5 5 5 5 5 5 5 $ Row 2
+           5 5 5 5 5 5 5 5 5 $ Row 3
+           5 5 5 5 5 5 5 5 5 $ Row 4
+           5 5 5 5 5 5 5 5 5 $ Row 5
+           5 5 5 5 5 5 5 5 5 $ Row 6
+           5 5 5 5 5 5 5 5 5 $ Row 7
+           5 5 5 5 5 5 5 5 5 $ Row 8
+           5 5 5 5 5 5 5 5 5 $ Row 9
+         $ z=2
+           6 6 6 6 6 6 6 6 6 $ Row 1
+           6 6 6 6 6 6 6 6 6 $ Row 2
+           6 6 6 6 6 6 6 6 6 $ Row 3
+           6 6 6 6 6 6 6 6 6 $ Row 4
+           6 6 6 6 6 6 6 6 6 $ Row 5
+           6 6 6 6 6 6 6 6 6 $ Row 6
+           6 6 6 6 6 6 6 6 6 $ Row 7
+           6 6 6 6 6 6 6 6 6 $ Row 8
+           6 6 6 6 6 6 6 6 6 $ Row 9
+         $ z=-2
+         $ A B C D E F G H I
+           2 2 2 2 2 2 2 2 2 $ Row 1
+           2 2 2 2 2 2 2 2 2 $ Row 2
+           2 2 2 2 2 2 2 2 2 $ Row 3
+           2 2 2 2 2 2 2 2 2 $ Row 4
+           2 2 2 2 2 2 2 2 2 $ Row 5
+           2 2 2 2 2 2 2 2 2 $ Row 6
+           2 2 2 2 2 2 2 2 2 $ Row 7
+           2 2 2 2 2 2 2 2 2 $ Row 8
+           2 2 2 2 2 2 2 2 2 $ Row 9
+         $ z=-1
+         $ A B C D E F G H I
+           3 3 3 3 3 3 3 3 3 $ Row 1
+           3 3 3 3 3 3 3 3 3 $ Row 2
+           3 3 3 3 3 3 3 3 3 $ Row 3
+           3 3 3 3 3 3 3 3 3 $ Row 4
+           3 3 3 3 3 3 3 3 3 $ Row 5
+           3 3 3 3 3 3 3 3 3 $ Row 6
+           3 3 3 3 3 3 3 3 3 $ Row 7
+           3 3 3 3 3 3 3 3 3 $ Row 8
+           3 3 3 3 3 3 3 3 3 $ Row 9
+         $ z=0
+         $ A B C D E F G H I
+           4 4 4 4 4 4 4 4 4 $ Row 1
+           4 4 4 4 4 4 4 4 4 $ Row 2
+           4 4 4 4 4 4 4 4 4 $ Row 3
+           4 4 4 4 4 4 4 4 4 $ Row 4
+           4 4 4 4 4 4 4 4 4 $ Row 5
+           4 4 4 4 4 4 4 4 4 $ Row 6
+           4 4 4 4 4 4 4 4 4 $ Row 7
+           4 4 4 4 4 4 4 4 4 $ Row 8
+           4 4 4 4 4 4 4 4 4 $ Row 9
+         $ z=1
+         $ A B C D E F G H I
+           5 5 5 5 5 5 5 5 5 $ Row 1
+           5 5 5 5 5 5 5 5 5 $ Row 2
+           5 5 5 5 5 5 5 5 5 $ Row 3
+           5 5 5 5 5 5 5 5 5 $ Row 4
+           5 5 5 5 5 5 5 5 5 $ Row 5
+           5 5 5 5 5 5 5 5 5 $ Row 6
+           5 5 5 5 5 5 5 5 5 $ Row 7
+           5 5 5 5 5 5 5 5 5 $ Row 8
+           5 5 5 5 5 5 5 5 5 $ Row 9
+         $ z=2
+           6 6 6 6 6 6 6 6 6 $ Row 1
+           6 6 6 6 6 6 6 6 6 $ Row 2
+           6 6 6 6 6 6 6 6 6 $ Row 3
+           6 6 6 6 6 6 6 6 6 $ Row 4
+           6 6 6 6 6 6 6 6 6 $ Row 5
+           6 6 6 6 6 6 6 6 6 $ Row 6
+           6 6 6 6 6 6 6 6 6 $ Row 7
+           6 6 6 6 6 6 6 6 6 $ Row 8
+           6 6 6 6 6 6 6 6 6 $ Row 9
+         $ z=-2
+         $ A B C D E F G H I
+           2 2 2 2 2 2 2 2 2 $ Row 1
+           2 2 2 2 2 2 2 2 2 $ Row 2
+           2 2 2 2 2 2 2 2 2 $ Row 3
+           2 2 2 2 2 2 2 2 2 $ Row 4
+           2 2 2 2 2 2 2 2 2 $ Row 5
+           2 2 2 2 2 2 2 2 2 $ Row 6
+           2 2 2 2 2 2 2 2 2 $ Row 7
+           2 2 2 2 2 2 2 2 2 $ Row 8
+           2 2 2 2 2 2 2 2 2 $ Row 9
+         $ z=-1
+         $ A B C D E F G H I
+           3 3 3 3 3 3 3 3 3 $ Row 1
+           3 3 3 3 3 3 3 3 3 $ Row 2
+           3 3 3 3 3 3 3 3 3 $ Row 3
+           3 3 3 3 3 3 3 3 3 $ Row 4
+           3 3 3 3 3 3 3 3 3 $ Row 5
+           3 3 3 3 3 3 3 3 3 $ Row 6
+           3 3 3 3 3 3 3 3 3 $ Row 7
+           3 3 3 3 3 3 3 3 3 $ Row 8
+           3 3 3 3 3 3 3 3 3 $ Row 9
+         $ z=0
+         $ A B C D E F G H I
+           4 4 4 4 4 4 4 4 4 $ Row 1
+           4 4 4 4 4 4 4 4 4 $ Row 2
+           4 4 4 4 4 4 4 4 4 $ Row 3
+           4 4 4 4 4 4 4 4 4 $ Row 4
+           4 4 4 4 4 4 4 4 4 $ Row 5
+           4 4 4 4 4 4 4 4 4 $ Row 6
+           4 4 4 4 4 4 4 4 4 $ Row 7
+           4 4 4 4 4 4 4 4 4 $ Row 8
+           4 4 4 4 4 4 4 4 4 $ Row 9
+         $ z=1
+         $ A B C D E F G H I
+           5 5 5 5 5 5 5 5 5 $ Row 1
+           5 5 5 5 5 5 5 5 5 $ Row 2
+           5 5 5 5 5 5 5 5 5 $ Row 3
+           5 5 5 5 5 5 5 5 5 $ Row 4
+           5 5 5 5 5 5 5 5 5 $ Row 5
+           5 5 5 5 5 5 5 5 5 $ Row 6
+           5 5 5 5 5 5 5 5 5 $ Row 7
+           5 5 5 5 5 5 5 5 5 $ Row 8
+           5 5 5 5 5 5 5 5 5 $ Row 9
+         $ z=2
+           6 6 6 6 6 6 6 6 6 $ Row 1
+           6 6 6 6 6 6 6 6 6 $ Row 2
+           6 6 6 6 6 6 6 6 6 $ Row 3
+           6 6 6 6 6 6 6 6 6 $ Row 4
+           6 6 6 6 6 6 6 6 6 $ Row 5
+           6 6 6 6 6 6 6 6 6 $ Row 6
+           6 6 6 6 6 6 6 6 6 $ Row 7
+           6 6 6 6 6 6 6 6 6 $ Row 8
+           6 6 6 6 6 6 6 6 6 $ Row 9
+         $ z=2
+           6 6 6 6 6 6 6 6 6 $ Row 1
+           6 6 6 6 6 6 6 6 6 $ Row 2
+           6 6 6 6 6 6 6 6 6 $ Row 3
+           6 6 6 6 6 6 6 6 6 $ Row 4
+           6 6 6 6 6 6 6 6 6 $ Row 5
+           6 6 6 6 6 6 6 6 6 $ Row 6
+           6 6 6 6 6 6 6 6 6 $ Row 7
+           6 6 6 6 6 6 6 6 6 $ Row 8
+           6 6 6 6 6 6 6 6 6 $ Row 9
 c        Pin Cells
   200     3 -0.500     200                           u=2  $ Pin Flow Region
   201     4 -8.000    -200  201                      u=2  $ Fuel Clad
   202     5 -0.001    -201  202                      u=2  $ Helium Gap
   203     6 -9.000    -202                           u=2  $ Fuel
+  210    13 -0.500     200                           u=3  $ Pin Flow Region
+  211    14 -8.000    -200  201                      u=3  $ Fuel Clad
+  212    15 -0.001    -201  202                      u=3  $ Helium Gap
+  213    16 -9.000    -202                           u=3  $ Fuel
+  220     3 -0.500     200                           u=4  $ Pin Flow Region
+  221     4 -8.000    -200  201                      u=4  $ Fuel Clad
+  222     5 -0.001    -201  202                      u=4  $ Helium Gap
+  223     6 -9.000    -202                           u=4  $ Fuel
+  230    13 -0.500     200                      u=5  $ Pin Flow Region
+  231    14 -8.000    -200   201                u=5  $ Fuel Clad
+  232    15 -0.001    -201   202                u=5  $ Helium Gap
+  233    16 -9.000    -202                            u=5  $ Fuel
+  240     3 -0.500     200                           u=6  $ Pin Flow Region
+  241     4 -8.000    -200  201                      u=6  $ Fuel Clad
+  242     5 -0.001    -201  202                      u=6  $ Helium Gap
+  243     6 -9.000    -202                           u=6  $ Fuel
 
 c    Surface Cards
 c
@@ -54,6 +287,9 @@ c        Assembly and Channel Surfaces
    *4    py     -10.00000                                 $ External Wall Ymin
    *5    pz     150.00000                                 $ External Wall Zmax
    *6    pz    -150.00000                                 $ External Wall Zmax
+    7    px       0
+    8    py       0
+    9    pz       0
    10    px       9.50000                                 $ Assembly Ext  Xmax
    11    px      -9.50000                                 $ Assembly Ext  Xmin
    12    py       9.50000                                 $ Assembly Ext  Ymax
@@ -67,6 +303,8 @@ c        Pin and Waterbox Surfaces
   101    px      -1.00000                                 $ Pin Cell      Xmin
   102    py       1.00000                                 $ Pin Cell      Ymax
   103    py      -1.00000                                 $ Pin Cell      Ymin
+  104    pz      15.00000                                 $ Pin Cell      Zmax
+  105    pz     -15.00000                                 $ Pin Cell      Zmax
 c        Fuel Surfaces
   200    cz       0.50000                                 $ Fuel Clad     OR
   201    cz       0.49000                                 $ Fuel Clad     IR
@@ -83,11 +321,12 @@ c
 c        Translations and Tranformations
 c
 c        Cell Data
-imp:n    0 1 7r
+imp:n    0 1 23r
 c
 c        Source Definition
 kcode    1E6 1.5 75 175
- ksrc    0 0 0
+c ksrc    0 0 0
+sdef
 c
 c        Materials Definitions
 c
@@ -99,12 +338,18 @@ c
    m5     2004.70c -1.00000E+00                           $ He
    m6     6000.70c -2.00000E-01  92235.70c -2.00000E-01   $ UC (20% U235) FIX
          92238.70c -6.00000E-01
+  m13     1001.70c  2.00000E+00   8016.70c  1.00000E+00   $ Pin Cell H2O
+ mt13     lwtr.04t        
+  m14    26056.70c -1.00000E+00                           $ HCM-12A FIX 
+  m15     2004.70c -1.00000E+00                           $ He
+  m16     6000.70c -2.00000E-01  92235.70c -2.00000E-01   $ UC (20% U235) FIX
+         92238.70c -6.00000E-01
 c
 c        Tallies
-fmesh4:n geom  xyz        origin -10.0  -10.0  -150.0
-         imesh  10  20     iints  100   100
-         jmesh  10  20     jints  100   100
-         kmesh 150 300     kints  150   150
+c fmesh4:n geom  xyz        origin -10.0  -10.0  -150.0
+c         imesh  10  20     iints  100   100
+c         jmesh  10  20     jints  100   100
+c         kmesh 150 300     kints  150   150
 
 
 INFO
